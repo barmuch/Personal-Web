@@ -73,13 +73,14 @@ h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  text-shadow: 0 0 15px #e7dfe0;
-  color: #1F090C;
+  color: rgba(255, 255, 255, 0.8);
+  filter :drop-shadow(0 0 40px #1f090c);
+  text-shadow:0 0 7px #ffffff;
 }
 
 #header h1 a,
 #header h1 a:hover {
-  color: rgb(31, 9, 12);
+  color: rgba(255, 255, 255, 0.8);
   line-height: 1;
   display: inline-block;
 }
@@ -148,12 +149,14 @@ h6 {
 
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
   }
 
   #header h2 {
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
   }
 
   #header p {
@@ -437,7 +440,9 @@ section .container {
   font-weight: 700;
   font-size: 26px;
   color: #1F090C;
-  text-shadow: 0 0 15px #fff;
+  text-shadow: 0 0 15px rgb(228, 218, 218);
+  padding-bottom: 10px;
+  filter: drop-shadow(0 0 5px #fff);
 }
 
 .about-me .content ul {
@@ -464,6 +469,18 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+
+.about-me img {
+  filter :drop-shadow(0 0 5px #fff);
+  max-height: 50vh;
+  border-radius: 40px;
+  margin-left: 8vw;
+  margin-top: -5vh;
+}
+
+#about .container-about {
+  margin-top :10vh;
 }
 
 /*--------------------------------------------------------------
