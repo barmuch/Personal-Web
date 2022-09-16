@@ -756,7 +756,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: rgb(202, 197, 197);
 }
 
 .services .icon-box:hover .icon i {
@@ -764,7 +764,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: rgb(119, 105, 105);
 }
 
 .services .icon-box:hover h4 a,
@@ -1002,7 +1002,8 @@ section .container {
   background-color: #1F090C;
 }
 
-/*--------------------------------------------------------------
+
+/*-------------------------------------------------------------/
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
