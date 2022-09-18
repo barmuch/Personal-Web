@@ -98,7 +98,7 @@ h6 {
 }
 #header p {
   font-family: Gunny;
-  font-size: 50px;
+  font-size: 45px;
   padding: 8px;
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.8);
@@ -388,7 +388,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(26, 25, 25, 0.8);
   padding: 30px;
 }
 
@@ -473,10 +473,10 @@ section .container {
 
 .about-me img {
   filter :drop-shadow(0 0 5px #fff);
-  max-height: 50vh;
+  max-height: 60vh;
   border-radius: 40px;
-  margin-left: 8vw;
-  margin-top: -5vh;
+  margin-left: 6vw;
+  margin-top: -7vh;
 }
 
 #about .container-about {
@@ -692,6 +692,21 @@ section .container {
   border: 2px solid #1F090C;
 }
 
+/* certificates */
+
+/* animasi */
+
+@keyframes zoomDanFade {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -886,7 +901,6 @@ section .container {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
   font-size: 14px;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
 }
@@ -1004,6 +1018,7 @@ section .container {
 
 
 /*-------------------------------------------------------------/
+
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
