@@ -483,6 +483,10 @@ section .container {
   margin-top :10vh;
 }
 
+.about-me p {
+  text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 # Skills
@@ -1160,10 +1164,21 @@ section .container {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  margin-top: 5px;
+}
+
+.contact .btn {
+  background: #1F090C;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 5px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #0a6133;
 }
 
 @-webkit-keyframes animate-loading {
